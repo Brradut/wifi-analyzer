@@ -1,0 +1,34 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-O2",
+      "-o",
+      "wifi-analyzer",
+      "wifi-scanner.c"
+    ],
+    "directory": "/home/bradu/wifi-analyzer",
+    "file": "/home/bradu/wifi-analyzer/wifi-scanner.c",
+    "output": "/home/bradu/wifi-analyzer/wifi-analyzer"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-O2",
+      "-o",
+      "packet-sniffer",
+      "packet-sniffer.c"
+    ],
+    "directory": "/home/bradu/wifi-analyzer",
+    "file": "/home/bradu/wifi-analyzer/packet-sniffer.c",
+    "output": "/home/bradu/wifi-analyzer/packet-sniffer"
+  }
+]
