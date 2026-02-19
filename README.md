@@ -5,3 +5,5 @@ To actually have a reproducible build that is intended to work on multiple syste
 Running the project can be done in multiple ways. Locally, this can be done with both `./build.sh local` and `./build.sh dev`, but it requires that you have libcap available on your system (it is important that the libpcap version you're using is compiled with libnl, otherwise monitor mode doesn't work). But for a more portable approach, you can use `./build.sh docker`, which sets everything up inside of a docker container, and dumps the resulting files (as well as the shared libpcap library) in an `output` folder.
 
 You need to run the resulting binary as root.
+
+I have not tested this on Windows, but you may be able to run it under WSL. The only limitation is that I don't know if you'll be able to use a real network card to sniff packets. Just use linux :).
